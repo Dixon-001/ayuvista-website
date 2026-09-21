@@ -11166,11 +11166,17 @@
     .sm\:mt-20 {
       margin-top: calc(var(--spacing) * 20);
     }
+    .sm\:mr-10 {
+      margin-right: calc(var(--spacing) * 10);
+    }
     .sm\:ml-10 {
       margin-left: calc(var(--spacing) * 10);
     }
     .sm\:ml-20 {
       margin-left: calc(var(--spacing) * 20);
+    }
+    .sm\:ml-auto {
+      margin-left: auto;
     }
     .sm\:hidden {
       display: none;
@@ -11675,6 +11681,9 @@
     }
     .lg\:mx-0 {
       margin-inline: 0px;
+    }
+    .lg\:mx-auto {
+      margin-inline: auto;
     }
     .lg\:mt-\[27px\] {
       margin-top: 27px;
